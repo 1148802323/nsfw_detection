@@ -1,0 +1,104 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==================== 虚拟环境 ====================
+# 虚拟环境目录
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ==================== 机器学习大文件 ====================
+# 模型文件 - 不要上传训练好的模型
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.model
+*.weights
+*.bin
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.joblib
+
+# ==================== 训练相关 ====================
+# 训练日志和检查点和数据目录
+
+pass_images/
+test_images/
+downloaded_images
+train/results
+train/set_data/dataset
+nsfw_image_detection/
+get_images_from_server/showimageserver_logs_20250822
+
+# ==================== Jupyter Notebook ====================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==================== IDE 和编辑器 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==================== 压缩包和二进制文件 ====================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ==================== 操作系统 ====================
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==================== 日志文件 ====================
+*.log
+*.bak
+*.tmp
+*.temp
+
+# ==================== 配置文件 ====================
+# 本地配置文件（如果有的话，应该用 .env 代替）
+config.local.*
+settings.local.*
